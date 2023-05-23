@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsHW", "ThreadsHW\ThreadsHW.csproj", "{B5B83DDF-1D81-47BC-891D-47EFBD18C79B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5B83DDF-1D81-47BC-891D-47EFBD18C79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B83DDF-1D81-47BC-891D-47EFBD18C79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B83DDF-1D81-47BC-891D-47EFBD18C79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B83DDF-1D81-47BC-891D-47EFBD18C79B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
