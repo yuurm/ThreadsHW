@@ -1,4 +1,6 @@
-﻿public class Product
+﻿using Newtonsoft.Json;
+
+public class Product
 {
     public string Name { get; set; }
     public decimal Price { get; set; }
@@ -44,27 +46,27 @@ class Program
 {
     static void Main()
     {
-        ProductCard[] cards = {
-            new() { Product = new Product { Name = "Apple", Price = 0.5m }, Quantity = 3 },
-            new() { Product = new Product { Name = "Banana", Price = 0.3m }, Quantity = 2 },
-            new() { Product = new Product { Name = "Orange", Price = 0.4m }, Quantity = 4 },
-            new() { Product = new Product { Name = "Grapes", Price = 0.6m }, Quantity = 1 }
+        var product = new Product
+        {
+            Name = "Apple",
+            Price = 0.5m
         };
 
-        var quantityDiscountStrategy = new QuantityDiscountStrategy();
-        var amountDiscountStrategy = new AmountDiscountStrategy();
 
-        cards[0].DiscountStrategy = quantityDiscountStrategy;
-        cards[1].DiscountStrategy = quantityDiscountStrategy;
-        cards[2].DiscountStrategy = amountDiscountStrategy;
-        cards[3].DiscountStrategy = amountDiscountStrategy;
+        string json1 = JsonConvert.SerializeObject(product);
 
-        foreach (var card in cards)
-        {
-            decimal discount = card.CalculateDiscount();
-            Console.WriteLine($"Discount for {card.Product.Name}: {discount}");
-        }
 
-        Console.ReadLine();
+        Console.WriteLine(json1);
+        
+        
+        
+        string json2 = "{\"Name\":\"Apple\",\"Price\":0.5}";
+
+
+        Product product2 = JsonConvert.DeserializeObject<Product>(json2);
+
+
+        Console.WriteLine($"Product Name: {product2.Name}");
+        Console.WriteLine($"Product Price: {product2.Price}");
     }
 }

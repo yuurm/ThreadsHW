@@ -1,0 +1,15 @@
+/Users/a1/RiderProjects/ThreadsHW/ThreadsHW/bin/Debug/net7.0/ThreadsHW
+/Users/a1/RiderProjects/ThreadsHW/ThreadsHW/bin/Debug/net7.0/ThreadsHW.deps.json
+/Users/a1/RiderProjects/ThreadsHW/ThreadsHW/bin/Debug/net7.0/ThreadsHW.runtimeconfig.json
+/Users/a1/RiderProjects/ThreadsHW/ThreadsHW/bin/Debug/net7.0/ThreadsHW.dll
+/Users/a1/RiderProjects/ThreadsHW/ThreadsHW/bin/Debug/net7.0/ThreadsHW.pdb
+/Users/a1/RiderProjects/ThreadsHW/ThreadsHW/obj/Debug/net7.0/ThreadsHW.csproj.AssemblyReference.cache
+/Users/a1/RiderProjects/ThreadsHW/ThreadsHW/obj/Debug/net7.0/ThreadsHW.GeneratedMSBuildEditorConfig.editorconfig
+/Users/a1/RiderProjects/ThreadsHW/ThreadsHW/obj/Debug/net7.0/ThreadsHW.AssemblyInfoInputs.cache
+/Users/a1/RiderProjects/ThreadsHW/ThreadsHW/obj/Debug/net7.0/ThreadsHW.AssemblyInfo.cs
+/Users/a1/RiderProjects/ThreadsHW/ThreadsHW/obj/Debug/net7.0/ThreadsHW.csproj.CoreCompileInputs.cache
+/Users/a1/RiderProjects/ThreadsHW/ThreadsHW/obj/Debug/net7.0/ThreadsHW.dll
+/Users/a1/RiderProjects/ThreadsHW/ThreadsHW/obj/Debug/net7.0/refint/ThreadsHW.dll
+/Users/a1/RiderProjects/ThreadsHW/ThreadsHW/obj/Debug/net7.0/ThreadsHW.pdb
+/Users/a1/RiderProjects/ThreadsHW/ThreadsHW/obj/Debug/net7.0/ThreadsHW.genruntimeconfig.cache
+/Users/a1/RiderProjects/ThreadsHW/ThreadsHW/obj/Debug/net7.0/ref/ThreadsHW.dll

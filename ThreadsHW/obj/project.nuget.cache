@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BIKcETZyUqN9YW7aeEt8p+6cXEvfytQUXF1E8cIyIjJMJ4AGAdUdp54PG6I2yZ5YjGo/NjDAxwcp3tiCMMhWjA==",
+  "success": true,
+  "projectFilePath": "/Users/a1/RiderProjects/ThreadsHW/ThreadsHW/ThreadsHW.csproj",
+  "expectedPackageFiles": [
+    "/Users/a1/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
